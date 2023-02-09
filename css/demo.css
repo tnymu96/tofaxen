@@ -1,0 +1,47 @@
+body {
+	font-family: "Roboto Condensed";
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+.content {
+	max-width: 800px;
+	width: 92%;
+	margin: 0 auto;
+}
+.main-title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.sub-title {
+	text-align: left;
+	font-size: 18px;
+	margin: 12px 0 8px 0;
+}
+
+.sub-content {
+	line-height: 1.4;
+	font-size: 17px;
+	text-align: justify;
+	margin: 0;
+}
+
+.wrap-img {
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.wrap-img img {
+	max-width: 300px;
+}
+ul > li {
+	margin-bottom: 5px;
+	line-height: 1.4;
+}
