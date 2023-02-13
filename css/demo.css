@@ -21,6 +21,7 @@ a {
 	font-size: 28px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: #38114a;
 }
 
 .sub-title::before {
@@ -32,6 +33,7 @@ a {
 	text-align: left;
 	font-size: 18px;
 	margin: 12px 0 8px 0;
+	color: #38114a;
 }
 
 .sub-content {
