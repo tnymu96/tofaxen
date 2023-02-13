@@ -8,7 +8,9 @@ body {
 user-select: none;
 background-color: #FCFFE7;
 }
-
+a {
+	text-decoration: none;
+}
 .content {
 	max-width: 800px;
 	width: 92%;
@@ -21,6 +23,11 @@ background-color: #FCFFE7;
 	text-transform: uppercase;
 }
 
+.sub-title::before {
+	content: "-";
+	margin-right: 7px	;
+	display: inline-block;
+}
 .sub-title {
 	text-align: left;
 	font-size: 18px;
